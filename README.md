@@ -9,8 +9,4 @@ Installation
 
 1. Clone the repository in your local machine 
 2. Navigate to the project directory 
-<<<<<<< HEAD
 3. Either open with live server to view the site or you can open the html in the google chrome.
-=======
-3. Either open with live server to view the site or you can open the html in the google chrome.
->>>>>>> 02e10a8 (update)
