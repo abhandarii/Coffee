@@ -5,7 +5,7 @@ function coffee_type(type){
   fetch(url)
     .then(response => response.json())
     .then(data => {
-      const coffeeList = document.getElementById('coffee-list');
+      const coffeeList = document.getElementById('coffee-list'); //adds the 2 end points hot and iced coffee 
       coffeeList.innerHTML = '';
 
       data.forEach(coffee => {
@@ -16,7 +16,7 @@ function coffee_type(type){
           <p><strong>Description:</strong> ${coffee.description}</p>
           <p><strong>Price:</strong>$${coffee.price}</p>
         `;
-        coffeeList.appendChild(div);
+        coffeeList.appendChild(div);  //lists out the coffee list inside the iced and hot coffees
       });
     })
     .catch(error => {
