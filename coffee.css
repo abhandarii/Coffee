@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&display=swap');
+/*url for the font that will be used on the website */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lobster", sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+    padding:20px;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-size: 60px;
+    color: #4B2E2E;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo-subtext {
+    font-size: 20px;
+    color: #FFFF00;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+
+
